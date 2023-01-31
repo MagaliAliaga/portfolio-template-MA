@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700;800&family=Roboto+Slab:wght@200;400;700;800&display=swap');
 :root {
   --primary-color: #32b890;
   --primary-color-dark: #108156;
@@ -13,7 +13,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
 .navbar {
@@ -215,3 +215,46 @@ footer {
   font-size: 18px;
 }
 
+.tech-icons-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+
+}
+
+.tech-icon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+
+.tech-icon-list-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tech-icon-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.tech-icon-item-end {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+span {
+  margin-top: 5px;
+  color: var(--primary-color-dark);
+}
